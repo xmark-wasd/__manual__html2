@@ -12,6 +12,18 @@
 
 ```html
 
+<form name="data" novalidate>
+    <input type="text" name="login">
+    <br>
+    <br>
+    <input type="submit" value="send">
+</form>
+```
+
+#### атрибуты
+
+```html
+
 <form
     name="data"           <!-- имя формы -->
 
@@ -30,6 +42,12 @@
 ### Тег **`<input>`**
 
 создает поле ввода (текстовое или иное другое)
+
+```html
+<input type="text" name="login">
+```
+
+#### аттрибуты
 
 ```html
     <input
