@@ -61,15 +61,18 @@
         step=""
         min=""
         max=""
-        
-        readonly="on"
-        pattern="^[9-9]+$"
+        minlength=""
+        maxlength=""
         
         placeholder=""
-           
+        
+        readonly="on"
+          
         autofocus="off"
         autocomplete="off"
-        
+       
+        pattern="^[9-9]+$"
+       
         disabled
         required
     >    
