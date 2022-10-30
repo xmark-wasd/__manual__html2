@@ -34,14 +34,13 @@
         min=""
         max=""
         
-        placeholder=""
-        
         readonly="on"
+        pattern="^[9-9]+$"
         
+        placeholder=""
+           
         autofocus="off"
         autocomplete="off"
-        
-        pattern="^[9-9]+$"
         
         disabled
         required
