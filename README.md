@@ -1,5 +1,11 @@
 ## Формы 
 
+- тег `<form>`
+- тег `<input>`
+- теги `<option>, <select>, <optgroup> и <datalist>`
+- теги `<fieldset> и <legend>`
+- тег  `<lable>`
+
 ### Тег **`<form>`**
 
 Создает форму для заполнения и ее отправки на сервер
