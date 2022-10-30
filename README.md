@@ -102,3 +102,5 @@
     <input type="date"> 
     <input type="time"> 
 ```
+
+#### Теги **`<option>, <select> и <optgroup>`**
