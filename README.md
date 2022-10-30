@@ -21,17 +21,6 @@
 </form>
 ```
 
-#### Тег **`<label>`**
-
-используется для связи и создания подписи к полю ввода (input)
-
-```html
-<label for="login"> 
-    login 
-</label>
-<input type="text" name="login">
-```
-                                                    
 ### Тег **`<input>`**
 
 создает поле ввода (текстовое или иное другое)
@@ -104,3 +93,14 @@
 ```
 
 #### Теги **`<option>, <select> и <optgroup>`**
+
+#### Тег **`<label>`**
+
+используется для связи и создания подписи к полю ввода (input)
+
+```html
+<label for="login"> 
+    login 
+</label>
+<input type="text" name="login">
+```
