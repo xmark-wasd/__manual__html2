@@ -4,7 +4,7 @@
 - тег `<input>`
 - теги `<option>, <select>, <optgroup> и <datalist>`
 - теги `<fieldset> и <legend>`
-- тег  `<lable>`
+- тег  `<label>`
 
 ### Тег **`<form>`**
 
