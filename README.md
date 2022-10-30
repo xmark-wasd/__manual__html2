@@ -19,6 +19,35 @@
                                                                                 
 ### inpup  
 
+### inpup  
+
+```html
+    <input
+        type=""
+        
+        name=""
+        value=""
+        
+        form=""
+        
+        step=""
+        min=""
+        max=""
+        
+        placeholder=""
+        
+        readonly="on"
+        
+        autofocus="off"
+        autocomplete="off"
+        
+        pattern="^[9-9]+$"
+        
+        disabled
+        required
+    >    
+```
+
 Типы инпутов можно поделить на несколько групп:
 
 #### текстовые 
