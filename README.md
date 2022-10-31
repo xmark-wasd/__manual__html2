@@ -68,8 +68,6 @@
         description="..."
         autor="..."
         name="keyword" content="qwerty, wasd, xwz"
-        
-        content="используется только с name b http-equiv"
     >
 ```
 
