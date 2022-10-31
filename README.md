@@ -1,3 +1,145 @@
+- `<!DOCTYPE>`
+- `<html>`
+- - `<base>`
+- - `<meta>`
+- - `<link>`
+- - `<style>`
+- - `<script>`
+- - `<title>`
+- `<body>`
+
+
+## `<!DOCTYPE>`
+
+Указывает браузеру тип документа
+
+## `<html>`
+
+Корневой элемент всего документа
+
+## `<head>`
+
+Может включать в себя теги:
+
+`<base>`  
+`<meta>`  
+`<link>`  
+`<style>`  
+`<script>`  
+`<title>`  
+
+### `<base>`
+
+Тег указывает, который будет подставляеться в начало всех относительных путей.
+
+```html
+    <base href=""> 
+```
+
+#### атрибуты:
+
+```html
+    <base
+        href=""
+        targer=""
+    >
+```
+
+### `<meta>`
+
+Мета-данные документа
+
+#### атрибуты:
+
+```html
+    <meta
+        charset="UTF-8" 
+        
+        http-equiv=""
+        viewport="content="width=device-width, initial-scale=1.0"
+        
+        description="..."
+        autor="..."
+        name="keyword" content="qwerty, wasd, xwz"
+        
+        content="используется только с name b http-equiv"
+    >
+```
+
+### `<meta>`
+
+Подгружает на страницу содержимое внешнего файла
+
+```html
+<link rel="stylesheet" href="main.css">
+```
+
+#### атрибуты:
+
+```html
+<link
+    rel="stylesheet" <!-- указание на тип содержимого --> 
+    
+    href="main.css"  <!-- ссылка на внешний файл --> 
+    
+    sizes="25x25"    <!-- размер фавиконки -->
+    
+    media=""         <!-- аналог css директивы @media--
+>
+```
+
+### `<style>`
+
+внутри тега можно писать стили
+
+```html
+<style>
+    .class {
+        color: red;
+    }
+</style>
+```
+
+#### атриибуты:
+
+```
+    <style
+        media=""
+    >
+    </style>
+```
+
+### `<script>`
+
+Подключает внешний скрипты к странице и позволяет внутри писать программный код
+
+```html
+<script type="text/javascript" src="main.js"></script>
+
+<script type="text/javascript">
+    console.log('hello world')
+</script>
+```
+
+#### атрибуты:
+
+```html
+<script
+    src="" <!-- путь к внешнему файлу-->
+    
+    type="" <!-- тип содержимого -->
+    
+    async"" <!-- загружает скрипт асинхронно с основной страницей -->
+    
+    async"" <!-- загружает скрипт только после загрузки основной страницы -->
+    
+    language=""
+>
+</script>
+```
+
+***
+
 ## Формы 
 
 - тег `<form>`
