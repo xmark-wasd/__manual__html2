@@ -63,7 +63,7 @@
         charset="UTF-8" 
         
         http-equiv=""
-        viewport="content="width=device-width, initial-scale=1.0"
+        viewport="content=width=device-width, initial-scale=1.0"
         
         description="..."
         autor="..."
