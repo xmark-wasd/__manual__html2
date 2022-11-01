@@ -407,7 +407,7 @@ a href="path/to/page">нажми на меня</a>
     - `<object>`
     - `<source>`
     - `<canvas>`
-    - `<!-- разное -->`
+    - <!-- разное -->
     - `<meter>`
     - `<output>`
     - `<progress>`
