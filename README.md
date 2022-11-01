@@ -356,7 +356,6 @@ a href="path/to/page">нажми на меня</a>
 >
 ```
 
-
 - структура документа
 - `<!-DOCTYPE>`
 - `<html>`
@@ -367,18 +366,28 @@ a href="path/to/page">нажми на меня</a>
     - `<script>`
     - `<title>`
 - `<body>`
-    - текст
+    - `<!-- текст -->`
     - `<h1>...<h6>` 
     - `<p>`
+    - `<i>`
+    - `<em>`
+    - `<b>`
+    - `<strong>`
+    - `<small>`
+    - `<sub>`
+    - `<sup>`
+    - `<mark>`
+    - `<code>`
+    - `<pre>`
     - `<!-- ссылки -->`
     - `<a>`
-    - списки
+    - <-- списки -->
     - `<ul>` (`ol`)
         - `<li>`
     - `<dl>`
         - `<dt>`
         - `<dd>`
-    - форма
+    - `<!-- форма -->`
     - `<form>`
         - `<label>`
         - `<input>` (`<textarea>`)
@@ -388,7 +397,7 @@ a href="path/to/page">нажми на меня</a>
                 - `<option>`
         - `<fieldset>`
             - `<legend>`
-    - медиа
+    - `<!-- медиа -->`
     - `<img>`
     - `<audio>`
     - `<video>`
@@ -396,10 +405,10 @@ a href="path/to/page">нажми на меня</a>
     - `<object>`
     - `<source>`
     - `<canvas>`
-    - разное
+    - `<!-- разное -->`
     - `<meter>`
     - `<output>`
     - `<progress>`
     - `<details>`
         - `<summary>`
-    - семантика
+    <!-- семантика -->
