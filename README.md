@@ -355,3 +355,52 @@ a href="path/to/page">нажми на меня</a>
     
     title="" <-- отображает значение при наведении на ссылку -->
 >
+
+
+
+- структура документа
+- `<!-DOCTYPE>`
+- `<html>`
+- `<head>`
+    - `<base>`
+    - `<meta>`
+    - `<style>`
+    - `<script>`
+    - `<title>`
+- `<body>`
+    - `<!-- текст -->`
+    - `<h1>...<h6>` 
+    - `<p>`
+    - `<!-- ссылки -->`
+    - `<a>`
+    - <-- списки -->
+    - `<ul>` (`ol`)
+        - `<li>`
+    - `<dl>`
+        - `<dt>`
+        - `<dd>`
+    - `<!-- форма -->`
+    - `<form>`
+        - `<label>`
+        - `<input>` (`<textarea>`)
+        - `<button>`
+        - `<select>` (`<datalist>`)
+            - `<optgroup>`
+                - `<option>`
+        - `<fieldset>`
+            - `<legend>`
+    - `<!-- медиа -->`
+    - `<img>`
+    - `<audio>`
+    - `<video>`
+    - `<embed>`
+    - `<object>`
+    - `<source>`
+    - `<canvas>`
+    - `<!-- разное -->`
+    - `<meter>`
+    - `<output>`
+    - `<progress>`
+    - `<details>`
+        - `<summary>`
+    <!-- семантика -->
