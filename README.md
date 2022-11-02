@@ -9,7 +9,7 @@
 - `<html>`
 - - `<base>`
 - - <details>
-    <summary>`<base>`</summary>
+    <summary>```html <base>```</summary>
 
     1. First item must be preceeded with an empty line.
     2. Markdown renders **perfectly**.
