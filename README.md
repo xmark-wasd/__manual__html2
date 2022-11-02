@@ -8,11 +8,12 @@
 - `<!DOCTYPE>`
 - `<html>`
 - - `<base>`
-- - -<details>
-        <summary>A dropdown list for markdown</summary>
-           1. First item must be preceeded with an empty line.
-           1. Markdown renders **perfectly**.
-           1. Extra item.
+- - <details>
+    <summary>`<base>`</summary>
+
+    1. First item must be preceeded with an empty line.
+    2. Markdown renders **perfectly**.
+    3. Extra item.
 
     </details>
 - - `<meta>`
