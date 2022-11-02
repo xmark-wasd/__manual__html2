@@ -8,8 +8,8 @@
 - `<!DOCTYPE>`
 - `<html>`
 - - `<base>`
-- - <details>
-    <summary>```html <base>```</summary>
+- - `<base>`<details><summary></summary>
+    
 
     1. First item must be preceeded with an empty line.
     2. Markdown renders **perfectly**.
